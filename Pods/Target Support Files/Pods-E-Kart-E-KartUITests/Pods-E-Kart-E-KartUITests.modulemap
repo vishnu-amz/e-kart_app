@@ -1,0 +1,6 @@
+framework module Pods_E_Kart_E_KartUITests {
+  umbrella header "Pods-E-Kart-E-KartUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

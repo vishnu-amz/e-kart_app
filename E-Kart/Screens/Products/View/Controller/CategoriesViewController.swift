@@ -11,7 +11,7 @@ class CategoriesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationItem.title = Constant.Screens.category
         // Do any additional setup after loading the view.
     }
     

@@ -7,15 +7,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Tabbar View Controller-->
         <scene sceneID="ePV-ej-QyR">
             <objects>
-                <tabBarController id="Tnl-9K-kwU" sceneMemberID="viewController">
+                <tabBarController id="Tnl-9K-kwU" customClass="TabbarViewController" customModule="E_Kart" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IQg-Cf-WUC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="u5u-Fn-bWl" kind="relationship" relationship="viewControllers" id="Fwu-qZ-TLA"/>
@@ -32,11 +33,12 @@
         <!--Home-->
         <scene sceneID="EDK-nQ-O1a">
             <objects>
-                <navigationController title="Home" id="u5u-Fn-bWl" sceneMemberID="viewController">
+                <navigationController id="u5u-Fn-bWl" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="Home" id="cfb-Fw-vYq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5pc-co-JbU">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="B0e-5r-R2I" kind="relationship" relationship="rootViewController" id="LJj-7T-VZt"/>
@@ -49,7 +51,7 @@
         <!--HomeViewController-->
         <scene sceneID="coh-nT-3UJ">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tabbar" referencedIdentifier="HomeViewController" id="B0e-5r-R2I" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="HomeViewController" id="B0e-5r-R2I" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="sgE-Q3-9ES"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wK8-RM-Umt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -59,11 +61,12 @@
         <!--Account-->
         <scene sceneID="jc8-i7-WLa">
             <objects>
-                <navigationController title="Account" id="bnJ-cL-uFc" sceneMemberID="viewController">
+                <navigationController id="bnJ-cL-uFc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Account" image="User" id="vzD-OZ-GdR"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="N84-MJ-pbb">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="UnX-4O-o7y" kind="relationship" relationship="rootViewController" id="gcu-9E-BfE"/>
@@ -76,11 +79,12 @@
         <!--Categories-->
         <scene sceneID="Pje-s5-Fal">
             <objects>
-                <navigationController title="Categories" id="p6Z-VJ-HHy" sceneMemberID="viewController">
+                <navigationController id="p6Z-VJ-HHy" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Categories" image="Category" id="skq-Ij-kui"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DGo-8f-Eco">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="81F-ab-gG1" kind="relationship" relationship="rootViewController" id="Ifc-1A-J1W"/>
@@ -93,7 +97,7 @@
         <!--CategoriesViewController-->
         <scene sceneID="lUK-he-xIg">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tabbar" referencedIdentifier="CategoriesViewController" id="81F-ab-gG1" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="CategoriesViewController" id="81F-ab-gG1" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="FaB-UA-FzJ"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qzD-4d-Fai" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -103,7 +107,7 @@
         <!--OffersViewController-->
         <scene sceneID="VDf-FX-bid">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tabbar" referencedIdentifier="OffersViewController" id="bSL-Ko-uHZ" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="OffersViewController" id="bSL-Ko-uHZ" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="4CL-YI-nnk"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Or-W2-eGo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -113,11 +117,12 @@
         <!--Offers-->
         <scene sceneID="All-E8-rK4">
             <objects>
-                <navigationController title="Offers" id="fyJ-tn-WoF" sceneMemberID="viewController">
+                <navigationController id="fyJ-tn-WoF" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Offers" image="Offers" id="lYY-Wn-rld"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4nC-Qo-L0B">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="bSL-Ko-uHZ" kind="relationship" relationship="rootViewController" id="jWc-C2-xwT"/>
@@ -130,11 +135,12 @@
         <!--Cart-->
         <scene sceneID="QqE-fN-JTb">
             <objects>
-                <navigationController title="Cart" id="A5n-Wb-MRI" sceneMemberID="viewController">
+                <navigationController id="A5n-Wb-MRI" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Cart" image="Cart" id="auv-tN-2yl"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="l8N-JQ-PIW">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="fZD-x2-9IY" kind="relationship" relationship="rootViewController" id="Nbi-bn-vOd"/>
@@ -147,7 +153,7 @@
         <!--CartViewController-->
         <scene sceneID="CUe-n1-l1T">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tabbar" referencedIdentifier="CartViewController" id="fZD-x2-9IY" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="CartViewController" id="fZD-x2-9IY" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="hdQ-Xt-cNu"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nql-Fc-kaT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -157,7 +163,7 @@
         <!--AccountViewController-->
         <scene sceneID="j6o-fQ-gaV">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tabbar" referencedIdentifier="AccountViewController" id="UnX-4O-o7y" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="AccountViewController" id="UnX-4O-o7y" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="P2T-r8-UCT"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDn-QG-TGN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

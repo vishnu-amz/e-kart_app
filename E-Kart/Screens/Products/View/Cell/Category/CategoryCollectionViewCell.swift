@@ -8,10 +8,39 @@
 import UIKit
 
 class CategoryCollectionViewCell: UICollectionViewCell {
-
+    
+    
+    //MARK: - Objects
+    var category: Value? {
+        didSet {
+            categoryListing()
+        }
+    }
+    
+    var colorGroup: UIColor? {
+        didSet {
+            viewColorBackground.backgroundColor = colorGroup
+        }
+    }
+    
+    //MARK: - Outlets
+    @IBOutlet weak var viewColorBackground: UIView!
+    @IBOutlet weak var imgCategory: UIImageView!
+    @IBOutlet weak var lblCategoryName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        viewColorBackground.cornerRadius = viewColorBackground.frame.height / 2
     }
-
+    
+    //MARK: - Methods
+    func categoryListing() {
+        guard let category else {
+            return
+        }
+        if let url = URL(string: category.imageURL ?? "") {
+            imgCategory.setImage(withURL: url, placeholder: UIImage(named: "Logo.png"))
+        }
+        lblCategoryName.text = category.name
+    }
 }

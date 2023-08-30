@@ -9,12 +9,13 @@ import UIKit
 
 class TabbarViewController: UITabBarController {
 
+    //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
         addTopBorderToTabBar()
     }
     
+    //MARK: - Methods
     func addTopBorderToTabBar() {
         let border = CALayer()
         let borderWidth: CGFloat = 1.0
