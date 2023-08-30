@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tnl-9K-kwU">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+<scenes>
+    <!--Home View Controller-->
+    <scene sceneID="T2I-lt-pJd">
+        <objects>
+            <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5cI-S2-ra4" customClass="HomeViewController" customModule="E_Kart" customModuleProvider="target" sceneMemberID="viewController">
+                <view key="view" contentMode="scaleToFill" id="PMf-Tm-L0x">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <viewLayoutGuide key="safeArea" id="2bL-Yn-fIi"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </viewController>
+            <placeholder placeholderIdentifier="IBFirstResponder" id="Vc3-PK-FiC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+        </objects>
+        <point key="canvasLocation" x="1859" y="815"/>
+    </scene>
+    <!--Categories View Controller-->
+    <scene sceneID="4DL-yo-2h0">
+        <objects>
+            <viewController storyboardIdentifier="CategoriesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qzu-9f-zwY" customClass="CategoriesViewController" customModule="E_Kart" customModuleProvider="target" sceneMemberID="viewController">
+                <view key="view" contentMode="scaleToFill" id="0on-cn-W1m">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <viewLayoutGuide key="safeArea" id="eWP-o8-q4U"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </viewController>
+            <placeholder placeholderIdentifier="IBFirstResponder" id="rcO-V4-cxw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+        </objects>
+        <point key="canvasLocation" x="2877" y="815"/>
+    </scene>
+    <!--Offers View Controller-->
+    <scene sceneID="hFC-JL-gGH">
+        <objects>
+            <viewController storyboardIdentifier="OffersViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qr7-sc-G66" customClass="OffersViewController" customModule="E_Kart" customModuleProvider="target" sceneMemberID="viewController">
+                <view key="view" contentMode="scaleToFill" id="F2L-NE-pn9">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <viewLayoutGuide key="safeArea" id="ddt-18-vef"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </viewController>
+            <placeholder placeholderIdentifier="IBFirstResponder" id="pVu-qY-7Mt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+        </objects>
+        <point key="canvasLocation" x="3862" y="815"/>
+    </scene>
+    <!--Cart View Controller-->
+    <scene sceneID="5pe-av-60B">
+        <objects>
+            <viewController storyboardIdentifier="CartViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jNR-as-ALq" customClass="CartViewController" customModule="E_Kart" customModuleProvider="target" sceneMemberID="viewController">
+                <view key="view" contentMode="scaleToFill" id="HGR-9g-HJk">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <viewLayoutGuide key="safeArea" id="Koi-XQ-LaM"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </viewController>
+            <placeholder placeholderIdentifier="IBFirstResponder" id="VOq-hK-lJF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+        </objects>
+        <point key="canvasLocation" x="4889" y="815"/>
+    </scene>
+    <!--Account View Controller-->
+    <scene sceneID="xc8-XY-pyH">
+        <objects>
+            <viewController storyboardIdentifier="AccountViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M2P-ME-mS2" customClass="AccountViewController" customModule="E_Kart" customModuleProvider="target" sceneMemberID="viewController">
+                <view key="view" contentMode="scaleToFill" id="0x5-Ra-mW8">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <viewLayoutGuide key="safeArea" id="SZk-cR-XrI"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </viewController>
+            <placeholder placeholderIdentifier="IBFirstResponder" id="qf7-Ty-6uW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+        </objects>
+        <point key="canvasLocation" x="5897" y="815"/>
+    </scene>
+</scenes>
+    <resources>
+        <image name="Cart" width="24" height="24"/>
+        <image name="Category" width="24" height="24"/>
+        <image name="Home" width="24" height="24"/>
+        <image name="Offers" width="24" height="24"/>
+        <image name="User" width="21.333333969116211" height="21.333333969116211"/>
+    </resources>
+</document>

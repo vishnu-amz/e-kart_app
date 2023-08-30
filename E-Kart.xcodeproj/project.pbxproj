@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FEECD8D3A12329A4A633BB3 /* Pods_E_KartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795535C14FF5593A4AC207CC /* Pods_E_KartTests.framework */; };
+		CF188EC255A2872CFF13F16C /* Pods_E_Kart_E_KartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9632C257DE7ECB8E1957B3 /* Pods_E_Kart_E_KartUITests.framework */; };
 		EC1308582A9DB058001FBC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1308572A9DB058001FBC65 /* AppDelegate.swift */; };
 		EC13085A2A9DB058001FBC65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1308592A9DB058001FBC65 /* SceneDelegate.swift */; };
-		EC13085C2A9DB058001FBC65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13085B2A9DB058001FBC65 /* ViewController.swift */; };
 		EC13085F2A9DB058001FBC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC13085D2A9DB058001FBC65 /* Main.storyboard */; };
 		EC1308612A9DB05B001FBC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1308602A9DB05B001FBC65 /* Assets.xcassets */; };
 		EC1308642A9DB05B001FBC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1308622A9DB05B001FBC65 /* LaunchScreen.storyboard */; };
 		EC13086F2A9DB05B001FBC65 /* E_KartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13086E2A9DB05B001FBC65 /* E_KartTests.swift */; };
 		EC1308792A9DB05B001FBC65 /* E_KartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1308782A9DB05B001FBC65 /* E_KartUITests.swift */; };
 		EC13087B2A9DB05B001FBC65 /* E_KartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13087A2A9DB05B001FBC65 /* E_KartUITestsLaunchTests.swift */; };
+		EC1308922A9DB9A3001FBC65 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1308912A9DB9A3001FBC65 /* ApiManager.swift */; };
+		EC1308952A9DC529001FBC65 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1308942A9DC529001FBC65 /* Home.storyboard */; };
+		EC1308972A9DD08E001FBC65 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1308962A9DD08E001FBC65 /* HomeViewController.swift */; };
+		EC1308992A9DD0E9001FBC65 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1308982A9DD0E9001FBC65 /* CategoriesViewController.swift */; };
+		EC13089B2A9DD0FC001FBC65 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13089A2A9DD0FC001FBC65 /* OffersViewController.swift */; };
+		EC13089D2A9DD109001FBC65 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13089C2A9DD109001FBC65 /* CartViewController.swift */; };
+		EC13089F2A9DD11F001FBC65 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13089E2A9DD11F001FBC65 /* AccountViewController.swift */; };
+		EC6EC52C2A9F7A6C0030C30B /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EC52B2A9F7A6C0030C30B /* UIColor+.swift */; };
+		EC7AC1652A9E831800E11451 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AC1642A9E831800E11451 /* UIImageView+.swift */; };
+		EC7AC16A2A9E949900E11451 /* ProductListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AC1682A9E949900E11451 /* ProductListCollectionViewCell.swift */; };
+		EC7AC16B2A9E949900E11451 /* ProductListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC7AC1692A9E949900E11451 /* ProductListCollectionViewCell.xib */; };
+		EC7AC16D2A9EA1D000E11451 /* PreLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AC16C2A9EA1D000E11451 /* PreLoader.swift */; };
+		EC7AC16F2A9EA3C800E11451 /* CustomTableViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AC16E2A9EA3C800E11451 /* CustomTableViewSize.swift */; };
+		ECC044182A9DEC8300B9D6BA /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC044172A9DEC8300B9D6BA /* TabbarViewController.swift */; };
+		ECC0441A2A9DEE9C00B9D6BA /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC044192A9DEE9C00B9D6BA /* UIView+.swift */; };
+		ECC0441C2A9DF48C00B9D6BA /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC0441B2A9DF48C00B9D6BA /* UIViewController+.swift */; };
+		ECC0441E2A9E087F00B9D6BA /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC0441D2A9E087F00B9D6BA /* ProductsViewModel.swift */; };
+		ECC044202A9E099900B9D6BA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC0441F2A9E099900B9D6BA /* Product.swift */; };
+		ECC044222A9E0AB500B9D6BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC044212A9E0AB500B9D6BA /* Constants.swift */; };
+		ECC044262A9E1AAF00B9D6BA /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC044252A9E1AAF00B9D6BA /* ProductsTableViewCell.swift */; };
+		ECC044292A9E1B3300B9D6BA /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC044272A9E1B3300B9D6BA /* CategoryCollectionViewCell.swift */; };
+		ECC0442A2A9E1B3300B9D6BA /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC044282A9E1B3300B9D6BA /* CategoryCollectionViewCell.xib */; };
+		ECC044302A9E1B9400B9D6BA /* BannersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC0442E2A9E1B9400B9D6BA /* BannersCollectionViewCell.swift */; };
+		ECC044312A9E1B9400B9D6BA /* BannersCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC0442F2A9E1B9400B9D6BA /* BannersCollectionViewCell.xib */; };
+		F62AFF8A1453925CE9C046D3 /* Pods_E_Kart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2513EB77FA75D0451665F124 /* Pods_E_Kart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +62,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2513EB77FA75D0451665F124 /* Pods_E_Kart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_Kart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		256CA754641932768F338EEB /* Pods-E-Kart-E-KartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Kart-E-KartUITests.debug.xcconfig"; path = "Target Support Files/Pods-E-Kart-E-KartUITests/Pods-E-Kart-E-KartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A9632C257DE7ECB8E1957B3 /* Pods_E_Kart_E_KartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_Kart_E_KartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D64044CE573AD234BF6B3AE /* Pods-E-Kart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Kart.release.xcconfig"; path = "Target Support Files/Pods-E-Kart/Pods-E-Kart.release.xcconfig"; sourceTree = "<group>"; };
+		795535C14FF5593A4AC207CC /* Pods_E_KartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_KartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		886A9F62816C0AEF7643EB4D /* Pods-E-Kart-E-KartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Kart-E-KartUITests.release.xcconfig"; path = "Target Support Files/Pods-E-Kart-E-KartUITests/Pods-E-Kart-E-KartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9219800793BC2A9E9BB4EA10 /* Pods-E-Kart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Kart.debug.xcconfig"; path = "Target Support Files/Pods-E-Kart/Pods-E-Kart.debug.xcconfig"; sourceTree = "<group>"; };
+		A784B82D5F92BF1634F31333 /* Pods-E-KartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-KartTests.release.xcconfig"; path = "Target Support Files/Pods-E-KartTests/Pods-E-KartTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8A07198A7985BCD3AAA871C /* Pods-E-KartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-KartTests.debug.xcconfig"; path = "Target Support Files/Pods-E-KartTests/Pods-E-KartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1308542A9DB058001FBC65 /* E-Kart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Kart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1308572A9DB058001FBC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC1308592A9DB058001FBC65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC13085B2A9DB058001FBC65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC13085E2A9DB058001FBC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC1308602A9DB05B001FBC65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1308632A9DB05B001FBC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +83,30 @@
 		EC1308742A9DB05B001FBC65 /* E-KartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-KartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1308782A9DB05B001FBC65 /* E_KartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_KartUITests.swift; sourceTree = "<group>"; };
 		EC13087A2A9DB05B001FBC65 /* E_KartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_KartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC1308912A9DB9A3001FBC65 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		EC1308942A9DC529001FBC65 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EC1308962A9DD08E001FBC65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC1308982A9DD0E9001FBC65 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		EC13089A2A9DD0FC001FBC65 /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		EC13089C2A9DD109001FBC65 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		EC13089E2A9DD11F001FBC65 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		EC6EC52B2A9F7A6C0030C30B /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		EC7AC1642A9E831800E11451 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		EC7AC1682A9E949900E11451 /* ProductListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC7AC1692A9E949900E11451 /* ProductListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListCollectionViewCell.xib; sourceTree = "<group>"; };
+		EC7AC16C2A9EA1D000E11451 /* PreLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoader.swift; sourceTree = "<group>"; };
+		EC7AC16E2A9EA3C800E11451 /* CustomTableViewSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewSize.swift; sourceTree = "<group>"; };
+		ECC044172A9DEC8300B9D6BA /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		ECC044192A9DEE9C00B9D6BA /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		ECC0441B2A9DF48C00B9D6BA /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		ECC0441D2A9E087F00B9D6BA /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		ECC0441F2A9E099900B9D6BA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		ECC044212A9E0AB500B9D6BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ECC044252A9E1AAF00B9D6BA /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		ECC044272A9E1B3300B9D6BA /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECC044282A9E1B3300B9D6BA /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		ECC0442E2A9E1B9400B9D6BA /* BannersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannersCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECC0442F2A9E1B9400B9D6BA /* BannersCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannersCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F62AFF8A1453925CE9C046D3 /* Pods_E_Kart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FEECD8D3A12329A4A633BB3 /* Pods_E_KartTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +130,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF188EC255A2872CFF13F16C /* Pods_E_Kart_E_KartUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D08EEF17A3029AF613CBCEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2513EB77FA75D0451665F124 /* Pods_E_Kart.framework */,
+				2A9632C257DE7ECB8E1957B3 /* Pods_E_Kart_E_KartUITests.framework */,
+				795535C14FF5593A4AC207CC /* Pods_E_KartTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE37800631D449E4BBFDD40A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9219800793BC2A9E9BB4EA10 /* Pods-E-Kart.debug.xcconfig */,
+				3D64044CE573AD234BF6B3AE /* Pods-E-Kart.release.xcconfig */,
+				256CA754641932768F338EEB /* Pods-E-Kart-E-KartUITests.debug.xcconfig */,
+				886A9F62816C0AEF7643EB4D /* Pods-E-Kart-E-KartUITests.release.xcconfig */,
+				A8A07198A7985BCD3AAA871C /* Pods-E-KartTests.debug.xcconfig */,
+				A784B82D5F92BF1634F31333 /* Pods-E-KartTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EC13084B2A9DB058001FBC65 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +167,8 @@
 				EC13086D2A9DB05B001FBC65 /* E-KartTests */,
 				EC1308772A9DB05B001FBC65 /* E-KartUITests */,
 				EC1308552A9DB058001FBC65 /* Products */,
+				AE37800631D449E4BBFDD40A /* Pods */,
+				3D08EEF17A3029AF613CBCEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +185,13 @@
 		EC1308562A9DB058001FBC65 /* E-Kart */ = {
 			isa = PBXGroup;
 			children = (
-				EC1308572A9DB058001FBC65 /* AppDelegate.swift */,
-				EC1308592A9DB058001FBC65 /* SceneDelegate.swift */,
-				EC13085B2A9DB058001FBC65 /* ViewController.swift */,
-				EC13085D2A9DB058001FBC65 /* Main.storyboard */,
-				EC1308602A9DB05B001FBC65 /* Assets.xcassets */,
-				EC1308622A9DB05B001FBC65 /* LaunchScreen.storyboard */,
+				EC1308872A9DB880001FBC65 /* Application */,
+				EC1308882A9DB889001FBC65 /* Constant */,
+				EC13088A2A9DB89A001FBC65 /* Helper */,
+				EC1308892A9DB892001FBC65 /* Extensions */,
+				EC13088B2A9DB8A3001FBC65 /* Screens */,
+				EC13088C2A9DB8AA001FBC65 /* Storyboard */,
+				EC1308932A9DBA4F001FBC65 /* Resources */,
 				EC1308652A9DB05B001FBC65 /* Info.plist */,
 			);
 			path = "E-Kart";
@@ -127,6 +214,156 @@
 			path = "E-KartUITests";
 			sourceTree = "<group>";
 		};
+		EC1308872A9DB880001FBC65 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC1308572A9DB058001FBC65 /* AppDelegate.swift */,
+				EC1308592A9DB058001FBC65 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EC1308882A9DB889001FBC65 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				ECC044212A9E0AB500B9D6BA /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		EC1308892A9DB892001FBC65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECC044192A9DEE9C00B9D6BA /* UIView+.swift */,
+				ECC0441B2A9DF48C00B9D6BA /* UIViewController+.swift */,
+				EC7AC1642A9E831800E11451 /* UIImageView+.swift */,
+				EC6EC52B2A9F7A6C0030C30B /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EC13088A2A9DB89A001FBC65 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EC1308912A9DB9A3001FBC65 /* ApiManager.swift */,
+				EC7AC16C2A9EA1D000E11451 /* PreLoader.swift */,
+				EC7AC16E2A9EA3C800E11451 /* CustomTableViewSize.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EC13088B2A9DB8A3001FBC65 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EC13088D2A9DB91B001FBC65 /* Products */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EC13088C2A9DB8AA001FBC65 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC13085D2A9DB058001FBC65 /* Main.storyboard */,
+				EC1308622A9DB05B001FBC65 /* LaunchScreen.storyboard */,
+				EC1308942A9DC529001FBC65 /* Home.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EC13088D2A9DB91B001FBC65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC13088E2A9DB94E001FBC65 /* Model */,
+				EC13088F2A9DB958001FBC65 /* View */,
+				EC1308902A9DB95E001FBC65 /* ViewModel */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		EC13088E2A9DB94E001FBC65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0441F2A9E099900B9D6BA /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC13088F2A9DB958001FBC65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECC044242A9E1A3700B9D6BA /* Controller */,
+				ECC044232A9E1A1C00B9D6BA /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC1308902A9DB95E001FBC65 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0441D2A9E087F00B9D6BA /* ProductsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC1308932A9DBA4F001FBC65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC1308602A9DB05B001FBC65 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC7AC1672A9E946900E11451 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				EC7AC1682A9E949900E11451 /* ProductListCollectionViewCell.swift */,
+				EC7AC1692A9E949900E11451 /* ProductListCollectionViewCell.xib */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		ECC044232A9E1A1C00B9D6BA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ECC044252A9E1AAF00B9D6BA /* ProductsTableViewCell.swift */,
+				ECC0442B2A9E1B4700B9D6BA /* Category */,
+				ECC0442D2A9E1B6900B9D6BA /* Banners */,
+				EC7AC1672A9E946900E11451 /* ProductList */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ECC044242A9E1A3700B9D6BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECC044172A9DEC8300B9D6BA /* TabbarViewController.swift */,
+				EC1308962A9DD08E001FBC65 /* HomeViewController.swift */,
+				EC1308982A9DD0E9001FBC65 /* CategoriesViewController.swift */,
+				EC13089A2A9DD0FC001FBC65 /* OffersViewController.swift */,
+				EC13089C2A9DD109001FBC65 /* CartViewController.swift */,
+				EC13089E2A9DD11F001FBC65 /* AccountViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECC0442B2A9E1B4700B9D6BA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ECC044282A9E1B3300B9D6BA /* CategoryCollectionViewCell.xib */,
+				ECC044272A9E1B3300B9D6BA /* CategoryCollectionViewCell.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ECC0442D2A9E1B6900B9D6BA /* Banners */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0442F2A9E1B9400B9D6BA /* BannersCollectionViewCell.xib */,
+				ECC0442E2A9E1B9400B9D6BA /* BannersCollectionViewCell.swift */,
+			);
+			path = Banners;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +371,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC13087E2A9DB05B001FBC65 /* Build configuration list for PBXNativeTarget "E-Kart" */;
 			buildPhases = (
+				2E59F31AF961A091E908A3A7 /* [CP] Check Pods Manifest.lock */,
 				EC1308502A9DB058001FBC65 /* Sources */,
 				EC1308512A9DB058001FBC65 /* Frameworks */,
 				EC1308522A9DB058001FBC65 /* Resources */,
+				11BBFBED34754680F9277A10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +390,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC1308812A9DB05B001FBC65 /* Build configuration list for PBXNativeTarget "E-KartTests" */;
 			buildPhases = (
+				80A877F13C193DFF69D45D10 /* [CP] Check Pods Manifest.lock */,
 				EC1308662A9DB05B001FBC65 /* Sources */,
 				EC1308672A9DB05B001FBC65 /* Frameworks */,
 				EC1308682A9DB05B001FBC65 /* Resources */,
@@ -169,9 +409,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC1308842A9DB05B001FBC65 /* Build configuration list for PBXNativeTarget "E-KartUITests" */;
 			buildPhases = (
+				22868746D603FAB71568F124 /* [CP] Check Pods Manifest.lock */,
 				EC1308702A9DB05B001FBC65 /* Sources */,
 				EC1308712A9DB05B001FBC65 /* Frameworks */,
 				EC1308722A9DB05B001FBC65 /* Resources */,
+				6748A89BEE2D375F9BF5CBE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +473,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC044312A9E1B9400B9D6BA /* BannersCollectionViewCell.xib in Resources */,
+				EC1308952A9DC529001FBC65 /* Home.storyboard in Resources */,
+				EC7AC16B2A9E949900E11451 /* ProductListCollectionViewCell.xib in Resources */,
+				ECC0442A2A9E1B3300B9D6BA /* CategoryCollectionViewCell.xib in Resources */,
 				EC1308642A9DB05B001FBC65 /* LaunchScreen.storyboard in Resources */,
 				EC1308612A9DB05B001FBC65 /* Assets.xcassets in Resources */,
 				EC13085F2A9DB058001FBC65 /* Main.storyboard in Resources */,
@@ -253,14 +499,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11BBFBED34754680F9277A10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Kart/Pods-E-Kart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Kart/Pods-E-Kart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-Kart/Pods-E-Kart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22868746D603FAB71568F124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-Kart-E-KartUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E59F31AF961A091E908A3A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-Kart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6748A89BEE2D375F9BF5CBE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Kart-E-KartUITests/Pods-E-Kart-E-KartUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Kart-E-KartUITests/Pods-E-Kart-E-KartUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-Kart-E-KartUITests/Pods-E-Kart-E-KartUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A877F13C193DFF69D45D10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-KartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC1308502A9DB058001FBC65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC13085C2A9DB058001FBC65 /* ViewController.swift in Sources */,
+				ECC044292A9E1B3300B9D6BA /* CategoryCollectionViewCell.swift in Sources */,
+				EC1308922A9DB9A3001FBC65 /* ApiManager.swift in Sources */,
+				EC7AC16A2A9E949900E11451 /* ProductListCollectionViewCell.swift in Sources */,
+				EC13089B2A9DD0FC001FBC65 /* OffersViewController.swift in Sources */,
+				EC13089F2A9DD11F001FBC65 /* AccountViewController.swift in Sources */,
+				EC13089D2A9DD109001FBC65 /* CartViewController.swift in Sources */,
+				ECC0441A2A9DEE9C00B9D6BA /* UIView+.swift in Sources */,
 				EC1308582A9DB058001FBC65 /* AppDelegate.swift in Sources */,
+				EC7AC16D2A9EA1D000E11451 /* PreLoader.swift in Sources */,
+				EC7AC1652A9E831800E11451 /* UIImageView+.swift in Sources */,
+				EC7AC16F2A9EA3C800E11451 /* CustomTableViewSize.swift in Sources */,
+				ECC044262A9E1AAF00B9D6BA /* ProductsTableViewCell.swift in Sources */,
+				ECC0441E2A9E087F00B9D6BA /* ProductsViewModel.swift in Sources */,
+				ECC044302A9E1B9400B9D6BA /* BannersCollectionViewCell.swift in Sources */,
+				ECC044202A9E099900B9D6BA /* Product.swift in Sources */,
 				EC13085A2A9DB058001FBC65 /* SceneDelegate.swift in Sources */,
+				EC1308972A9DD08E001FBC65 /* HomeViewController.swift in Sources */,
+				ECC0441C2A9DF48C00B9D6BA /* UIViewController+.swift in Sources */,
+				ECC044222A9E0AB500B9D6BA /* Constants.swift in Sources */,
+				EC1308992A9DD0E9001FBC65 /* CategoriesViewController.swift in Sources */,
+				ECC044182A9DEC8300B9D6BA /* TabbarViewController.swift in Sources */,
+				EC6EC52C2A9F7A6C0030C30B /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +800,7 @@
 		};
 		EC13087F2A9DB05B001FBC65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9219800793BC2A9E9BB4EA10 /* Pods-E-Kart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,10 +810,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "E-Kart/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +831,7 @@
 		};
 		EC1308802A9DB05B001FBC65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D64044CE573AD234BF6B3AE /* Pods-E-Kart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,10 +841,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "E-Kart/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +862,7 @@
 		};
 		EC1308822A9DB05B001FBC65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A07198A7985BCD3AAA871C /* Pods-E-KartTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +883,7 @@
 		};
 		EC1308832A9DB05B001FBC65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A784B82D5F92BF1634F31333 /* Pods-E-KartTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +904,7 @@
 		};
 		EC1308852A9DB05B001FBC65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256CA754641932768F338EEB /* Pods-E-Kart-E-KartUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +923,7 @@
 		};
 		EC1308862A9DB05B001FBC65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886A9F62816C0AEF7643EB4D /* Pods-E-Kart-E-KartUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
